@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>流程测试项目 V0.1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 流程测试项目 V0.1</h1>
+        <p class="subtitle">SE → KF → TS → YS 协作流程测试</p>
+        
+        <div class="info-card">
+            <h2>项目信息</h2>
+            <ul>
+                <li><strong>仓库地址</strong>: <a href="https://github.com/playerss/project-flow-test" target="_blank">github.com/playerss/project-flow-test</a></li>
+                <li><strong>版本</strong>: 0.1.0</li>
+                <li><strong>状态</strong>: <span id="status">开发中</span></li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <h2>项目团队</h2>
+            <div class="team-members">
+                <div class="member"><strong>SE</strong><br>项目设计</div>
+                <div class="member"><strong>KF</strong><br>项目开发</div>
+                <div class="member"><strong>TS</strong><br>项目测试</div>
+                <div class="member"><strong>YS</strong><br>项目验收</div>
+            </div>
+        </div>
+        
+        <button id="actionBtn" onclick="showMessage()">点击测试</button>
+        <p id="message"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
